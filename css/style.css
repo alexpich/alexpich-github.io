@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+/* Layout */
+.container {
+  flex-grow: 1;
+  margin: 0 auto;
+  width: auto;
+  position: relative;
+}
+
+.columns {
+  display: flex;
+}
+
+.column {
+  display: block;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 0.75rem;
+}
+
+.center {
+  justify-content: center;
+}
+
+.section {
+  padding: 5rem 1.5rem;
+}
+
+/* Text */
+.title {
+  color: #102a43;
+}
+
+.subtitle {
+  color: #102a43;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.center-text {
+  text-align: center;
+}
+
+/* Nav */
+.navbar {
+  padding: 1rem;
+  background: transparent;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .navbar-brand {
+  display: flex;
+}
+
+.navbar .navbar-item {
+  -webkit-box-flex: 0;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.navbar .navbar-menu {
+  margin-right: -0.75rem;
+}
+
+.navbar .navbar-end {
+  padding: 0 2rem;
+}
+
+.navbar .button.say-hi {
+  color: #fff;
+  background: #2cb1bc;
+  border: 2px solid #2cb1bc;
+  border-radius: 10px;
+  padding: 0.25rem 0.75rem;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  font-size: 1.2rem;
+}
+
+.navbar .button.say-hi:hover {
+  color: #2cb1bc;
+  border: 2px solid #2cb1bc;
+  background: transparent;
+}
+
+/* Hero */
+
+.hero .hero-body {
+  padding: 3rem 1.6rem;
+}
+
+.hero .hero-body .name.title {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero .hero-body .title {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.hero .hero-body .subtitle {
+  font-size: 1rem;
+}
+
+.hero .hero-body .selfie {
+  display: flex;
+  margin: 0 auto;
+}
+
+/* Description */
+.description {
+  background: #2cb1bc;
+  padding: 5rem 1.6rem;
+  padding-bottom: 12rem;
+}
+
+.description .title {
+  color: #fff;
+}
+
+.description .subtitle {
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+/* Skills */
+.skills {
+  margin-top: -14rem;
+  padding-bottom: 1rem;
+}
+
+.skills .panels {
+  border-radius: 20px;
+  background: #f5f7fa;
+  border: 1px solid #e6ecf8;
+}
+
+.skills .panels .columns {
+  flex-direction: column;
+}
+
+.skills .panels .columns .column {
+  padding: 50px 30px;
+  border-bottom: 1px solid #e6ecf8;
+  border-right: 0px solid #e6ecf8;
+}
+
+.skills .panels .columns .column:last-of-type {
+  border-right: none;
+  border-bottom: none;
+}
+
+.skills .column .fas {
+  color: #2cb1bc;
+  font-size: 3rem;
+}
+
+.skills .skill-list-title {
+  color: #2cb1bc;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+}
+
+.skills ul {
+  padding: 0;
+}
+
+.skills ul li {
+  list-style: none;
+}
+
+.projects img {
+  max-width: 200px;
+}
+
+/* Footer */
+.footer {
+  background: #2cb1bc;
+  padding-bottom: 3rem;
+}
+
+.footer .quote,
+.footer .copyright {
+  color: #fff;
+  opacity: 0.6;
+}
+
+.footer .social-media a i.fab {
+  color: #fff;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.footer .social-media a:hover i.fab {
+}
+
+/* Projects */
+
+@media screen and (min-width: 768px) {
+  .hero .hero-body .name.title {
+    font-size: 4rem;
+  }
+
+  .hero .hero-body .title {
+    font-size: 2rem;
+  }
+
+  .hero .hero-body .subtitle {
+    font-size: 1.4rem;
+  }
+
+  .description .title {
+    font-size: 2rem;
+  }
+
+  .description .column {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+  .skills .panels .columns {
+    flex-direction: row;
+  }
+
+  .skills .panels .columns .column {
+    border-bottom: 0px solid #e6ecf8;
+    border-right: 1px solid #e6ecf8;
+    padding: 60px 35px;
+  }
+}

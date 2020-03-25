@@ -186,6 +186,11 @@ body {
   max-width: 200px;
 }
 
+/* Projects */
+.projects .project-link {
+  text-decoration: none;
+}
+
 /* Footer */
 .footer {
   background: #2cb1bc;
@@ -205,11 +210,16 @@ body {
 }
 
 .footer .social-media a:hover i.fab {
+  transition: 0.2s all ease-in-out;
+  transform: scale(1.2);
 }
 
-/* Projects */
-
+/* Media Queries */
 @media screen and (min-width: 768px) {
+  .section {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
   .hero .hero-body .name.title {
     font-size: 4rem;
   }
@@ -238,5 +248,19 @@ body {
     border-bottom: 0px solid #e6ecf8;
     border-right: 1px solid #e6ecf8;
     padding: 60px 35px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-left: 20rem;
+    padding-right: 20rem;
   }
 }

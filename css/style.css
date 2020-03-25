@@ -183,11 +183,17 @@ body {
   list-style: none;
 }
 
+/* Projects */
+.projects .projects-list .columns .column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 .projects img {
   max-width: 200px;
 }
 
-/* Projects */
 .projects .project-link {
   text-decoration: none;
 }
@@ -250,6 +256,11 @@ body {
     border-right: 1px solid #e6ecf8;
     padding: 60px 35px;
   }
+
+  .projects .projects-list .columns .column {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -257,11 +268,21 @@ body {
     padding-left: 15rem;
     padding-right: 15rem;
   }
+
+  .section.projects {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .section {
     padding-left: 20rem;
     padding-right: 20rem;
+  }
+
+  .section.projects {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 }

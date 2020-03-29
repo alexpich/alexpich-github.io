@@ -151,7 +151,7 @@ body {
   border-radius: 20px;
   background: #fff;
   border: 1px solid #e6ecf8;
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.12);
 }
 
 .skills .panels .columns {

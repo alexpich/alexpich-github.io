@@ -194,6 +194,14 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
 }
+.projects .projects-list img {
+  transition: 0.2s all ease-in-out;
+}
+
+.projects .projects-list .project-covid:hover img,
+.projects .projects-list .project-stock:hover img {
+  transform: scale(1.1);
+}
 
 .projects img {
   max-width: 200px;
@@ -221,8 +229,11 @@ body {
   margin: 1rem;
 }
 
-.footer .social-media a:hover i.fab {
+.footer .social-media a i.fab {
   transition: 0.2s all ease-in-out;
+}
+
+.footer .social-media a:hover i.fab {
   transform: scale(1.2);
 }
 

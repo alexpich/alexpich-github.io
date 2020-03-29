@@ -70,7 +70,11 @@ body {
 }
 
 .navbar .navbar-menu {
-  margin-right: -0.75rem;
+  margin: auto 0;
+}
+
+.navbar .navbar-menu {
+  margin-right: -1.5rem;
 }
 
 .navbar .navbar-end {

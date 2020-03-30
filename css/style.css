@@ -207,6 +207,11 @@ body {
   max-width: 200px;
 }
 
+.projects .project-covid,
+.projects .project-stock {
+  margin-bottom: 2rem;
+}
+
 .projects .project-link {
   text-decoration: none;
 }

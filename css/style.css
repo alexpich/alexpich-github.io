@@ -83,8 +83,8 @@ body {
 
 .navbar .button.say-hi {
   color: #fff;
-  background: #2cb1bc;
-  border: 2px solid #2cb1bc;
+  background: #4299E1;
+  border: 2px solid #4299E1;
   border-radius: 5px;
   padding: 0.25rem 0.75rem;
   text-decoration: none;
@@ -93,8 +93,8 @@ body {
 }
 
 .navbar .button.say-hi:hover {
-  color: #2cb1bc;
-  border: 2px solid #2cb1bc;
+  color: #4299E1;
+  border: 2px solid #4299E1;
   background: transparent;
 }
 
@@ -126,7 +126,7 @@ body {
 
 /* Description */
 .description {
-  background: #2cb1bc;
+  background: #4299E1;
   padding: 5rem 1.6rem;
   padding-bottom: 12rem;
 }
@@ -170,12 +170,12 @@ body {
 }
 
 .skills .column .fas {
-  color: #2cb1bc;
+  color: #4299E1;
   font-size: 3rem;
 }
 
 .skills .skill-list-title {
-  color: #2cb1bc;
+  color: #4299E1;
   margin-top: 3rem;
   font-size: 1.2rem;
 }
@@ -218,7 +218,7 @@ body {
 
 /* Footer */
 .footer {
-  background: #2cb1bc;
+  background: #4299E1;
   padding-bottom: 3rem;
 }
 

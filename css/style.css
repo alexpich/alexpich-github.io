@@ -42,6 +42,7 @@ body {
   color: #102a43;
   font-weight: 300;
   line-height: 1.2;
+  font-family: 'Baloo Thambi 2', cursive;
 }
 
 .center-text {
@@ -219,6 +220,7 @@ body {
 .projects .project-link {
   text-decoration: none;
 }
+
 .project-text {
   font-weight: 500;
   font-family: "Baloo Thambi 2", cursive;
